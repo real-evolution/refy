@@ -8,7 +8,7 @@ use super::{Tag, Verifier};
 /// A struct representing a verifier tags.
 #[derive(Clone, Debug, Entity, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
-pub struct VerifierTags {
+pub struct VerifierTag {
     /// The unique identifier of the verifier tags.
     pub id: Key<Self, uuid::Uuid>,
 
