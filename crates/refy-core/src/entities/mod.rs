@@ -1,13 +1,13 @@
 mod tag;
 mod ticket;
-mod verified_tickets;
 mod ticket_tag;
+mod verified_ticket;
 mod verifier;
 mod verifier_tags;
 
 pub use tag::Tag;
 pub use ticket::Ticket;
-pub use verified_tickets::VerifiedTickets;
 pub use ticket_tag::TicketTag;
+pub use verified_ticket::VerifiedTicket;
 pub use verifier::Verifier;
 pub use verifier_tags::VerifierTags;

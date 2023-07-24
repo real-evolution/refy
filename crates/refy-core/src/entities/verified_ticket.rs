@@ -8,7 +8,7 @@ use super::{Tag, Ticket, Verifier};
 /// A struct representing a verified ticket.
 #[derive(Clone, Debug, MutableEntity, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
-pub struct VerifiedTickets {
+pub struct VerifiedTicket {
     /// The unique identifier.
     pub id: Key<Self, uuid::Uuid>,
 
